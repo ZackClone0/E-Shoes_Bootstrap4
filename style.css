@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    padding: 15px 30px;
+    width: 100%;
+    box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: rgb(68, 64, 64);
+    transition: all 0.6s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background-color:  rgb(10, 83, 241);
+    color: #fff;
+}
+
+.header {
+    margin-top: 100px;
+}
+
+.header .container .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .container .row h1 {
+    color: rgb(8, 9, 117);
+    font-size: 45px;
+    margin-bottom: 15px;
+    font-weight: 700
+}
+
+.header .container .row p {
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.header .container .row a {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(10, 83, 241);
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.5s ease;
+}
+
+.header .container .row a:hover {
+    background-color: rgb(8, 9, 117);
+}
+
+.about-us {
+    margin-top: 190px;
+    margin-bottom: 100px;
+}
+
+.about-us .container .row h1 {
+    color: #000;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about-us .container .row p {
+    color: rgb(70, 70, 70);
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.about-us .container .row a {
+    text-decoration: none;
+    color: rgb(10, 83, 241);
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.5s ease;
+    border: 1px solid rgb(10, 83, 241);
+}
+
+.about-us .container .row a:hover {
+    background-color: rgb(10, 83, 241);
+    color: #fff;
+}
+
+.new-products {
+    padding: 50px 0;
+}
+
+.new-products .row h2 {
+    color: #000;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 1;
+    padding: 20px 0;
+}
+
+.new-products .boxes .box {
+    margin-bottom: 30px;
+}
+
+.new-products .boxes .box .img-zoom {
+    overflow: hidden;
+}
+
+.new-products .boxes .box .img-zoom img {
+    transition: transform 0.6s ease;
+    width: 100%;
+}
+
+.new-products .boxes .box .img-zoom img:hover {
+    transform: scale(1.1);
+}
+
+.new-products .boxes .box .text {
+    text-align: center;
+}
+
+.new-products .boxes .box a {
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+    font-weight: 700;
+}
+
+.new-products .boxes .box a:hover {
+    color: rgb(10, 83, 241);
+}
+
+.new-products .boxes .box p {
+    color: rgb(10, 83, 241);
+    font-weight: 500;
+    font-size: 17px;
+    padding: 10px 0 20px;
+}
+
+.sports-shoes .heading {
+    padding: 25px 0;
+    text-align: center;
+}
+
+.sports-shoes .heading h2 {
+    color: #000;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+
+.sports-shoes .box {
+    padding-top: 40px;
+}
+
+.sports-shoes .watch {
+    position: relative;
+    border-bottom: 3px solid rgb(10, 83, 241);
+}
+
+.sports-shoes .watch img {
+    width: 100%;
+}
+
+.sports-shoes .watch a {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    background-color: rgb(10, 83, 241);
+    padding: 20px;
+
+}
+
+.sports-shoes .watch a  {
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.sports-shoes .watch:hover a {
+    opacity: 1;
+    transition: all 0.5s ease;
+    padding-bottom: 20px;
+}
+
+.sports-shoes .box .text {
+    text-align: center;
+}
+
+.sports-shoes .box .text h3 {
+    padding-top: 20px;
+}
+
+.sports-shoes .box .text a {
+    text-decoration: none;
+    color: #444444;
+    font-size: 27;
+    font-weight: 700;
+}
+
+.sports-shoes .box .text p {
+    color: rgb(10, 83, 241);
+    font-weight: 500;
+    font-size: 17px;
+    padding: 10px 0 20px;
+}
+
+.offer {
+    margin-top: 35px;
+    margin-bottom: 120px;
+}
+
+.services {
+    background-color: rgb(10, 83, 241);
+    padding: 20px 0;
+    color: #fff;
+}
+
+.services .container .row p {
+    color: #cfcfcf;
+}
+
+
+
